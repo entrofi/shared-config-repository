@@ -6,6 +6,7 @@
 
 
 <module name="Checker">
+    <module name="SuppressWarningsFilter" />
     <module name="SuppressionFilter">
         <property name="file" value="src/main/config/checkstyle/suppressions.xml"/>
     </module>
@@ -33,7 +34,7 @@
     <!-- =========================================================================== -->
     <!-- =========================================================================== -->
     <module name="TreeWalker">
-
+        <module name="SuppressWarningsHolder" /> 
         <module name="AbstractClassName">
             <property name="severity" value="warning"/>
             <property name="ignoreModifier" value="true"/>
