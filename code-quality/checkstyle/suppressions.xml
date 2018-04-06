@@ -9,8 +9,4 @@
     <!--sample usage-->
     <!--<suppress files="core/src/main/java/com/entrofi/mea/common/core/interceptors/BaseGeneralInterceptor.java" checks="IllegalCatchCheck" />-->
 
-    <suppress
-            files="src[\\/]main[\\/]java[\\/]net[\\/]entrofi[\\/]gameofthree[\\/]GameOfThreeApplication"
-              checks="HideUtilityClassConstructor" />
-
 </suppressions>
